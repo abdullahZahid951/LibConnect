@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "653174275434",
+    "project_id": "smd-project-7976e",
+    "storage_bucket": "smd-project-7976e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653174275434:android:72ec9166fc8f147780b913",
+        "android_client_info": {
+          "package_name": "com.example.smd_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjGvds1vmFi4K-5cq1_zQrBQzsdVJNSsk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

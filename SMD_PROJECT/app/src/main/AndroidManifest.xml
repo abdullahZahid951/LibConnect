@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SMD_PROJECT"
+        tools:targetApi="31">
+        <activity
+            android:name=".HistoryBooks"
+            android:exported="false" />
+        <activity
+            android:name=".FictionBooks"
+            android:exported="false" />
+        <activity
+            android:name=".CrimeBooks"
+            android:exported="false" />
+        <activity
+            android:name=".ComedyBooks"
+            android:exported="false" />
+        <activity
+            android:name=".GuestHomePage"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_book_returned"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_editProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_home2"
+            android:exported="false" />
+        <activity
+            android:name=".testRecyclerViewForSearch"
+            android:exported="false" />
+        <activity
+            android:name=".testRecyclerViewForNotifications"
+            android:exported="false" />
+        <activity
+            android:name=".testRecyclerView2"
+            android:exported="false" />
+        <activity
+            android:name=".test_recyclerView1"
+            android:exported="false" />
+        <activity
+            android:name=".notification"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_issuebook"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_bookreturned"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_collectfine"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_borrowed_books"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_SearchResults"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_AiRecommendation"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityAddbook"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_signup"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_search"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_profile"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_login"
+            android:exported="false" />
+        <activity
+            android:name=".FavBooksActivity"
+            android:exported="false" />
+        <activity
+            android:name=".YourBooks"
+            android:exported="false" />
+        <activity
+            android:name=".BookInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomePageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

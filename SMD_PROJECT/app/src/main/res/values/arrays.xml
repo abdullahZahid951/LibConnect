@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <string-array name="genreNames">
+        <item>Comedy</item>
+        <item>History</item>
+        <item>Fiction</item>
+        <item>Crime</item>
+
+
+        <!-- Add more items as needed -->
+    </string-array>
+
+
+
+
+</resources>

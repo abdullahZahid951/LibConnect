@@ -1,0 +1,317 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#302c44"
+    tools:context=".Activity_home2"
+    android:id="@+id/nnn"
+    android:orientation="vertical">
+
+    <!-- Main content layout -->
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:text="My Profile"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:gravity="right"
+                android:text="..."
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/notifica"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:weightSum="4"
+            android:gravity="right"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:gravity="right"
+                android:text="Total Fine= "
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/fine"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:gravity="right"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                />
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="2dp"
+
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/name17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Ali"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/rollnum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="Islamabad"
+                        android:textColor="#929796"
+                        android:textSize="18dp"
+                        />
+                </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="100dp"
+    android:paddingRight="100dp"
+    android:orientation="vertical">
+                <Button
+                    android:id="@+id/book"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#4DC0F4"
+                    android:layout_marginTop="15dp"
+                    android:text="Borrowed Books"
+                    android:textColor="#245B87"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    />
+                <Button
+                    android:id="@+id/admin_fine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#4DC0F4"
+                    android:layout_marginTop="15dp"
+                    android:text="Collect Fine"
+                    android:textColor="#245B87"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    />
+                <Button
+                    android:id="@+id/admin_addbook"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#4DC0F4"
+                    android:layout_marginTop="15dp"
+                    android:text="Add Book"
+                    android:textColor="#245B87"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    />
+
+                <Button
+                    android:id="@+id/admin_issuebook"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#4DC0F4"
+                    android:layout_marginTop="15dp"
+                    android:text="Issue Book"
+                    android:textColor="#245B87"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+
+                    />
+                <Button
+                    android:id="@+id/admin_returnbook"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#4DC0F4"
+                    android:layout_marginTop="15dp"
+                    android:text="Book Returned"
+                    android:textColor="#245B87"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    />
+
+
+</LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp"
+                    android:layout_marginTop="30dp"
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sign out"
+                        android:id="@+id/logout"
+                        android:textColor="#FA0808"
+
+                        android:textSize="16.3sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <!--                <HorizontalScrollView-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    >-->
+
+                <!--                    <LinearLayout-->
+                <!--                        android:layout_width="match_parent"-->
+                <!--                        android:layout_height="165dp"-->
+
+                <!--                        android:orientation="horizontal"-->
+                <!--                        android:paddingLeft="7dp"-->
+                <!--                        android:paddingRight="7dp"-->
+                <!--                        android:id="@+id/fav"-->
+
+                <!--                        >-->
+
+
+
+                <!--                    </LinearLayout>-->
+
+                <!--                </HorizontalScrollView>-->
+
+
+
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:orientation="horizontal"
+                        android:paddingLeft="7dp"
+                        android:paddingRight="7dp"
+                        android:id="@+id/reviewFill"
+
+                        >
+
+
+
+
+
+
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <!-- Footer layout -->
+
+
+
+
+    <RelativeLayout
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="140dp">
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:id="@+id/profilepic"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/user"
+            app:shapeAppearanceOverlay="@style/circleImageView"
+            app:strokeColor="#037369"
+            app:strokeWidth="1dp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/edit">
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:padding="4dp"
+
+                android:src="@drawable/pencil"
+
+                app:shapeAppearanceOverlay="@style/circleImageView"
+                app:strokeColor="#037369"
+                android:background="@color/white"
+                app:strokeWidth="3dp" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="330dp"
+        android:id="@+id/edit1"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+</RelativeLayout>
+
